@@ -1,0 +1,499 @@
+html {
+  background-color: lightgrey;
+  font-style: normal;
+  font-family: "opensans", sans-serif;
+}
+
+
+body {
+    background-image: url("img1/gradient1.png"), linear-gradient(to top right, #cc3399, #9966cc, #66cccc, #ffcccc);
+    width:320px;
+    height: 578px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.long {
+  height: 1160px;
+}
+
+
+.top {
+  vertical-align: top;
+}
+
+.long2 {
+  height: 720px;
+}
+
+.welldonepage {
+
+height: 0px;
+}
+
+
+  header h1 {
+  font-size: 34px;
+  color: white;
+  font-family: "opensans";
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  }
+
+
+.uppart {
+width: 366px;
+  height: 300px;
+  margin-top: -20px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: -26px;
+
+}
+
+
+.cccbtopimage {
+  width: 367px;
+    height: 300px;
+    margin-top: -62px;
+    margin-right: auto;
+    margin-bottom: -40px;
+    margin-left: -28px;
+
+  }
+
+
+
+
+  h2 {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 0px;
+    margin-top: -30px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  h3 {
+
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  section h4 {
+
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+
+div.gotocccb input[type=text] {
+  vertical-align: top;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+div.gotocccb button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+div.gotocccb button:hover {
+  background: #0b7dda;
+}
+
+div.gotocccb::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+div.mainexhibitions {
+
+margin: 0px 5px;
+text-align: center;
+
+}
+
+
+
+p.mainexhibit {
+
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid lightgrey;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0px 0 10px 0;
+    padding: 5px;
+    display: inline-block;
+
+  }
+
+
+
+
+
+.ph3 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 11px;
+}
+
+section p {
+
+font-size: 10px;
+text-align: justify;
+
+
+}
+
+.percorso {
+  margin-top: -20px;
+  margin-left: 60px;
+
+
+}
+
+
+.field {
+text-align: center;
+font-family: "opensans";
+font-size: 13px;
+margin: 0px 15px 0px 15px;
+border-color: white;
+
+}
+
+
+.culturehealth {
+margin:20px 10px 5px 18px;
+background-color: white;
+width: 42%;
+border: none;
+border-radius: 5px;
+padding: 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+
+}
+
+.culture:hover {
+  background-color: black;
+  font-weight: bold;
+  color: #9966CC;
+  border: 1px solid white;
+}
+
+
+.foodsocial {
+margin-left: 0px;
+background-color: white;
+width: 42%;
+border: none;
+border-radius: 5px;
+padding: 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}
+
+.buttonbar {
+  height: 17%;
+border-bottom: 0px;
+margin-bottom: -60px;
+
+}
+.buttonbar2 {
+
+margin-top: 30px;
+  border-bottom: 0px;
+  margin-bottom: -60px;
+
+}
+
+
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 58px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.museums:hover {
+
+  background-color: black;
+  font-weight: bold;
+  color: #9966CC;
+  border: 1px solid white;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.photomuseo {
+max-width: 100%;
+
+}
+
+.descriptions {
+margin:10px;
+border: 2px solid lightgrey;
+background-color: rgba(255,255,255,0.7) ;
+border-radius: 5px;
+padding: 5px;
+
+
+}
+
+.map {
+  max-width: 295px;
+  display: inline;
+  margin;auto;
+}
+
+.mapbox {
+  margin:10px;
+
+  text-align: center;
+
+
+}
+
+.mapbox p{
+  text-align: center;
+  border: 2px solid lightgrey;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.buyticket {
+    background-color: #444;
+    padding: 10px;
+    margin-left: 48px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+
+  .buyticket:hover {
+    background-color: black;
+    font-weight: bold;
+    color: #9966CC;
+    border: 1px solid white;
+  }
+
+  /* Calendar */
+  .month {
+    padding: 8px 20px;
+    width: 43%;
+    margin: 10px 70px;
+
+    background: black;
+    text-align: center;
+    font-family: "opensans";
+  }
+
+
+  .month ul {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .month ul li {
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .April2019 {
+
+  color: white;
+
+  }
+
+
+  .month .prev {
+    float: left;
+    padding-top: 0px;
+  }
+
+
+  .month .next {
+    float: right;
+    padding-top: 0px;
+  }
+
+
+  .calendar {
+    margin: -10px 70px;
+    background: lightgrey;
+    color: #fff;
+
+  }
+  .calendar tr {
+    border-top: 1px solid #46637f;
+    border-bottom: 1px solid #46637f;
+  }
+
+  .calendar td {
+    text-align: left;
+    padding: .5em 0em;
+  }
+
+  .calendar th {
+    color: black;
+    font-size: 15px
+    padding: 0px 5px;
+
+  }
+
+.calendar td {
+
+  font-size: 14px;
+}
+
+.active {
+  padding: 2px;
+  background: #9966CC;
+  color: white;
+}
+  .calendar td:first-child {
+    padding-top: .5em;
+
+  }
+  .calendar td:last-child {
+    padding-bottom: .5em;
+  }
+
+
+
+/* Card Payment */
+  .field {
+
+    font-family: "opensans";
+    font-size: 12px;
+    color: white;
+    text-align: center;
+
+  }
+
+  .field2 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 100px;
+
+  }
+
+
+
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+
+
+
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+    margin-left: 12px;
+  }
+
+    input[type=text] {
+      width: 80%;
+      margin-bottom: 5px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+
+  }
+
+.price {
+color: white;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+
+span.price {
+  float: right;
+  color: grey;
+}

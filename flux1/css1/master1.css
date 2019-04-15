@@ -1,0 +1,90 @@
+html {
+  background-color: lightgrey;
+  font-family: "opensans";
+}
+
+
+body {
+  background-image: url("img1/gradient1.png"), linear-gradient(to top right, #cc3399, #9966cc, #66cccc, #ffcccc);
+  width:320px;
+  height: 568px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+
+}
+
+
+body img
+{
+width: 320px;
+margin-top: -50px;
+}
+
+.fluxlogo {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 30px;
+  width: 320px;
+  color: white;
+font-size: 11px;
+}
+
+section {
+  margin-top: 80px;
+}
+input {
+  border-radius: 5px;
+  min-width: 205px;
+  padding: 7px;
+
+}
+.username {
+  margin-top: 60px;
+}
+
+ button {
+     background-color: #444;
+     padding: 10px;
+     margin-left: 48px;
+     margin-top: 15px;
+     border-radius: 5px;
+     border: 0;
+     display: block;
+     width: 70%;
+     font-size: 20px;
+     color: white;
+     font-weight: bold;
+   }
+   .login:hover {
+     background-color: black;
+     font-weight: bold;
+     color: #9966CC;
+     border: 1px solid white;
+   }
+
+section p:not([type="email"]):not([type="password"]){
+  text-align: center;
+  color: white;
+
+}
+
+a ins {
+  font-weight: bold;
+}
+
+.recover {
+  font-size: 10px;
+  margin-top: 8px;
+  margin-left: -100px;
+}
+.signin {
+  font-size: 12px;
+  margin-top: 50px;
+}
